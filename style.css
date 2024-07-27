@@ -43,10 +43,11 @@ h1 {
 }
 
 img {
+    width: 600px;
     display: block;
     margin: 0 auto;
-    border-radius: 10%;
-    animation: glowa 2s infinite;
+    border-radius: 3%;
+    animation: glowa 4s infinite;
 }
 
 
@@ -86,7 +87,6 @@ button {
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin-top: 10px;
     cursor: pointer;
