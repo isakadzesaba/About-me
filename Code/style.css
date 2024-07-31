@@ -22,9 +22,6 @@ a {
     margin: 0 auto;
     padding: 0 1rem;
 }
-.img {
-    width: 500px;
-}
 
 .header {
     background: #333;
@@ -123,6 +120,7 @@ a {
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
 }
 
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header-title {
@@ -133,6 +131,81 @@ a {
         height: 200px;
     }
 }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-title {
+        font-size: 2.2rem;
+    }
+    
+    .nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section {
+        padding: 4rem 0 2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .projects .project {
+        width: 90%;
+    }
+    .photo {
+        margin-left: -350px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .projects .project {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .fb-video {
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .nav ul li {
+        margin: 5px 0;
+    }
+    
+    .fb-video {
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .about {
+        margin-top: 90px;
+    }
+}
+
 
 /* Animations */
 @keyframes fadeIn {
