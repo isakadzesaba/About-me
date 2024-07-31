@@ -163,6 +163,9 @@ a {
     .photo {
         margin-left: -350px;
     }
+    .about {
+        margin-top: 90px;
+    }
 
 }
 
@@ -198,14 +201,6 @@ a {
         height: 150px;
     }
 }
-
-@media (max-width: 600px) {
-
-    .about {
-        margin-top: 90px;
-    }
-}
-
 
 /* Animations */
 @keyframes fadeIn {
